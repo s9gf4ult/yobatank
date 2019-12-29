@@ -1,0 +1,14 @@
+phantom:
+  address: 127.0.0.1:8888
+  ammo_type: phantom
+  ammofile: ammo.txt
+  load_profile:
+    load_type: rps # schedule load by defining requests per second
+    schedule: line(1, 10, 10m) # starting from 1rps growing linearly to 10rps during 10 minutes
+console:
+  enabled: true # enable console output
+telegraf:
+  enabled: false # let's disable telegraf monitoring for the first time
+
+
+# curl 'http://127.0.0.1:8080/api/v1/search' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0' -H 'Accept: */*' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Content-Type: application/json' -H 'x-csrf-token: EXz3o_NNwYcPsraDuNi-dQ==' -H 'X-Requested-With: XMLHttpRequest' -H 'DNT: 1' -H 'Connection: keep-alive' -H 'Referer: http://127.0.0.1:8080/' -H 'Cookie: user-role=b2b_admin; _SESSION=C5rs3wtqs2lQrl6BritynxuTSwxTu5IJIH1sC1YlPoCNoNPzpHbKU7wiqettRy9o4Gx2O9s/e5EgsHBMAXOQZ43aUOm2SMgX1Jy1hSHGK/LsL8TY5B0zpS/gOE9GdnHLscKGV3tb2usohko2sWkvOYQ+LpDzhjizWAt/UO4gIyOMCVHzjv5LL/b710jZhVN1HClApKjz/s5wlKNUfhb8psEAuEHNFaejtH0rf6F3umUI8zkz440zFZAfRB+xy7z1LQdS61JOE6ufZDo=; csrf-token=EXz3o_NNwYcPsraDuNi-dQ==' --data '{"segments":[{"from":"NYC","to":"LON","date":"2020-11-18"}],"passengers":{"adults":1,"children":0,"infants":0},"cabins":["Y"],"fare_types":{"published":true,"nego":true},"carriers":[]}'

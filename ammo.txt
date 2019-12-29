@@ -1,0 +1,15 @@
+873 search
+POST /api/v1/search HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Content-Type: application/json
+x-csrf-token: 7dmaFdOhWKvFvDWtDf-_Yg==
+Content-Length: 184
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8080/
+Cookie: user-role=b2b_admin; _SESSION=TqWomKPfH02VyXKr++5Blok9Z6NDkA+U5K2NAZVGtD2oYC98b3ARW2aXMY5Qzccwj2JsSRgMtipHhYUzKyg/0oQCRsm4kwpaOKccvNiy7jnRCUlHhUJwj9FcxDl+U3ytnkBK8taa70hobs80ESgnRXFYwWCrfhgeQFq/w2P06oR66XDhghJT6dXKF6E05KAEbtyLlryU2Oa9yqEn/8adYhbpyAEhHnujHBzLokZ8RrVgVAUo0ncyx34m8vKgPdIDUEX8WQmcCwn1prA=; csrf-token=7dmaFdOhWKvFvDWtDf-_Yg==
+
+{"segments":[{"from":"NYC","to":"LON","date":"2020-11-11"}],"passengers":{"adults":1,"children":0,"infants":0},"cabins":["Y"],"fare_types":{"published":true,"nego":true},"carriers":[]}
