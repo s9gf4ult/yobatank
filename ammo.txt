@@ -1,15 +1,17 @@
-873 search
+939
 POST /api/v1/search HTTP/1.1
 Host: 127.0.0.1:8080
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0
 Accept: */*
 Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
 Content-Type: application/json
-x-csrf-token: 7dmaFdOhWKvFvDWtDf-_Yg==
+x-csrf-token: EXz3o_NNwYcPsraDuNi-dQ==
+X-Requested-With: XMLHttpRequest
 Content-Length: 184
 DNT: 1
 Connection: keep-alive
 Referer: http://127.0.0.1:8080/
-Cookie: user-role=b2b_admin; _SESSION=TqWomKPfH02VyXKr++5Blok9Z6NDkA+U5K2NAZVGtD2oYC98b3ARW2aXMY5Qzccwj2JsSRgMtipHhYUzKyg/0oQCRsm4kwpaOKccvNiy7jnRCUlHhUJwj9FcxDl+U3ytnkBK8taa70hobs80ESgnRXFYwWCrfhgeQFq/w2P06oR66XDhghJT6dXKF6E05KAEbtyLlryU2Oa9yqEn/8adYhbpyAEhHnujHBzLokZ8RrVgVAUo0ncyx34m8vKgPdIDUEX8WQmcCwn1prA=; csrf-token=7dmaFdOhWKvFvDWtDf-_Yg==
+Cookie: user-role=b2b_admin; _SESSION=C5rs3wtqs2lQrl6BritynxuTSwxTu5IJIH1sC1YlPoCNoNPzpHbKU7wiqettRy9o4Gx2O9s/e5EgsHBMAXOQZ43aUOm2SMgX1Jy1hSHGK/LsL8TY5B0zpS/gOE9GdnHLscKGV3tb2usohko2sWkvOYQ+LpDzhjizWAt/UO4gIyOMCVHzjv5LL/b710jZhVN1HClApKjz/s5wlKNUfhb8psEAuEHNFaejtH0rf6F3umUI8zkz440zFZAfRB+xy7z1LQdS61JOE6ufZDo=; csrf-token=EXz3o_NNwYcPsraDuNi-dQ==
 
-{"segments":[{"from":"NYC","to":"LON","date":"2020-11-11"}],"passengers":{"adults":1,"children":0,"infants":0},"cabins":["Y"],"fare_types":{"published":true,"nego":true},"carriers":[]}
+{"segments":[{"from":"NYC","to":"LON","date":"2020-12-08"}],"passengers":{"adults":1,"children":0,"infants":0},"cabins":["Y"],"fare_types":{"published":true,"nego":true},"carriers":[]}

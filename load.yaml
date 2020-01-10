@@ -3,8 +3,8 @@ phantom:
   ammo_type: phantom
   ammofile: ammo.txt
   load_profile:
-    load_type: rps # schedule load by defining requests per second
-    schedule: line(1, 10, 10m) # starting from 1rps growing linearly to 10rps during 10 minutes
+    load_type: rps
+    schedule: line(70, 80, 5m) # starting from 1rps growing linearly to 10rps during 10 minutes
 console:
   enabled: true # enable console output
 telegraf:
