@@ -5,7 +5,7 @@
 * Делаем
 
 ```shell
-echo $(du -b a.txt) > ammo.txt
 unix2dos a.txt
+echo $(du -b a.txt) > ammo.txt
 cat a.txt >> ammo.txt
 ```
