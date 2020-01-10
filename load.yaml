@@ -1,5 +1,5 @@
 phantom:
-  address: https://production.kube.thebestagent.pro
+  address: production.kube.thebestagent.pro
   ammo_type: phantom
   ammofile: ammo.txt
   load_profile:
