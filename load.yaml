@@ -10,4 +10,5 @@ console:
 telegraf:
   enabled: false # let's disable telegraf monitoring for the first time
 
-mem_limit: 300
+ResourceCheck:
+  mem_limit: 300
