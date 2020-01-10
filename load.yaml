@@ -10,5 +10,6 @@ console:
 telegraf:
   enabled: false # let's disable telegraf monitoring for the first time
 
-core:
-  mem_limit: 300
+ResourceCheck:
+  enabled: false
+  package: niibu
