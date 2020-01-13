@@ -1,4 +1,5 @@
 phantom:
+  timeout: '120s'
   address: production.kube.thebestagent.pro
   ammo_type: phantom
   ammofile: ammo.txt
